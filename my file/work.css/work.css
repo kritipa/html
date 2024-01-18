@@ -1,0 +1,53 @@
+/* div{ */
+
+    /* height: 300px; */
+    /* width: 300px; */
+    /* background-color:deepskyblue; */
+    /* animation-name: anything; */
+    /* animation-duration:  7s; */
+
+/* } */
+/* @keyframes anything{ */
+    /* 0%{ */
+
+        /* background-color: blue;
+        width:500px;
+
+}
+25%{
+    background-color:black;
+    border-radius: 300px;
+
+}
+75%{
+    background-color:blanchedalmond;
+    height: 500px;
+}
+100%{
+    background-color:pink ; */
+    /* height:800px;
+}
+} */
+.parent{
+    height:400px ;
+    width: 80vw;
+    border: 2px solid green;
+    margin: 30px auto;
+    /* display grid */
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 150px  150px  150px;
+    grid-auto-rows: 40px;
+    grid-auto-columns: 60px;
+    grid-gap: 15px;
+}
+ .chlid{ 
+     background-color: brown; 
+     border: 2px solid blueviolet; 
+     #one{
+        grid-row-start:2;
+        grid-row-end:3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+     }
+ }
